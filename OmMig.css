@@ -1,0 +1,103 @@
+body
+{
+    background-color:white;
+    background-image: url(bild5.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1
+{
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%);
+
+    padding: 5px;
+
+    text-align: center;
+
+    font-size: 40px;
+    font-family: Verdana;
+
+    background-color: rgb(122, 150, 205);
+    border-radius: 10px;
+    border: 1px solid black;
+
+
+    user-select: none;
+}
+
+.buttons
+{
+    display: flex;
+
+    height: 8%;
+    width: 40%;
+    
+    justify-content: center;
+    position: absolute;
+
+    left: 52%;
+    top: 16%;
+    transform: translate(-50%);
+    gap: 10%;
+
+    box-shadow: 5px, 5px, 15px
+    rgba(0, 0, 0, 0.5);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.links
+{
+    background-color: rgb(59, 216, 32);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.links:hover
+{
+    background-color: rgb(39, 142, 21);
+}
+
+.links:active 
+{
+    background-color: rgb(32, 118, 16);
+}
+
+.textRuta p
+{
+    margin: 0;
+}
+
+.textRuta
+{
+    background-color: rgb(122, 150, 205);
+    border-radius: 10px;
+    border: 1px solid black;
+
+
+    padding: 5px;
+
+    position: absolute; 
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%);
+
+    margin: auto;
+
+    width: 50%;
+    height: fit-content;
+
+    font-size: 20px;
+    font-family: Verdana;
+}
+
