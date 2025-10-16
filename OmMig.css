@@ -197,7 +197,7 @@ img
 
     position: absolute; 
     top: 30%; 
-    left: 80%; 
+    left: 85%; 
     transform: translate(-50%);
 
     margin: auto;
@@ -207,9 +207,25 @@ img
 {
     position: absolute;
     top: 22%; 
-    left: 80%; 
+    left: 85%; 
     transform: translate(-50%);
 
+}
+
+.img2
+{
+    
+    width: 20%;
+    height: 45%;
+
+    border-radius: 10px;
+
+    position: absolute; 
+    top: 30%; 
+    left: 15%; 
+    transform: translate(-50%);
+
+    margin: auto;
 }
 
 
