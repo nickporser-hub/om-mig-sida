@@ -80,6 +80,8 @@ a
     
     border: 2px solid black;
     cursor: pointer;
+
+    user-select: none;
 }
 
 .links:hover
@@ -121,23 +123,7 @@ a
     font-family: Verdana;
 }
 
-.ad
-{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-    
-    background-color: white;
-    width: 40px;
-    height: 40px;
-    user-select: none;
-}
-button
-{
-    position: fixed; left: 0; top: 0;
-    user-select: none;
-}
 
 .textRutor
 {
@@ -201,6 +187,8 @@ img
     transform: translate(-50%);
 
     margin: auto;
+    
+    user-select: none;
 }
 
 .bildBeskrivning
@@ -210,6 +198,8 @@ img
     left: 85%; 
     transform: translate(-50%);
 
+    
+    user-select: none;
 }
 
 .img2
@@ -226,6 +216,8 @@ img
     transform: translate(-50%);
 
     margin: auto;
+
+    user-select: none;
 }
 
 
